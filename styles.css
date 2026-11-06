@@ -4,7 +4,7 @@
 }
 
 #artist_info{
-    background-image: url(/images/talking_heads-speaking_in_tongues.png);
+    background-image: url(images/talking_heads-speaking_in_tongues.png);
     filter: brightness(50%);
     background-position: center;
     text-align: left;
