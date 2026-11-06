@@ -1,25 +1,67 @@
 #artist_info{
     background-image: url(/images/talking_heads-speaking_in_tongues.png);
     background-repeat: no-repeat;
+    background-position: center;
     text-align: center;
     margin-top: 40px;
+    height: 60vh;
+    width: 100vw;
+}
+
+Title{
+    color: yellow;
 }
 
 h1{
     color: gray;
-    background-color: yellow;
     text-align: center;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: gray;
+    justify-content: center;
 }
 
 li{
     background-color: gray;
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
     font-size: 17px;
+    text-align: center;
 }
+
+section h2{
+    background-color: yellow;
+    display: inline-block;
+}
+
 #Chorus{
-    padding-left: 300px;
+    padding-left: 25vw;
+}
+
+#about{
+    position: absolute;     
+    top: 40vh;
+    right: 0;           
+    width: 300px;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#album_cover img{
+    position:absolute;
+    left: 85vw;
+    bottom: 67.5vh;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+a{
+    background-color: yellow;
 }
