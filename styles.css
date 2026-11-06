@@ -5,6 +5,7 @@
 
 #artist_info{
     background-image: url(/images/talking_heads-speaking_in_tongues.png);
+    filter: brightness(50%);
     background-position: center;
     text-align: left;
     margin-top: 40px;
@@ -14,6 +15,7 @@
 
 #artist_info h1{
     color: yellow;
+    text-align: left;
 }
 
 #artist_info h2,
@@ -65,7 +67,7 @@ section h2{
     top: 100vh;
     right: 0;           
     width: 300px;
-    background: #2c3e50;
+    background: #696969;
     color: white;
     padding: 20px;
     box-sizing: border-box;
